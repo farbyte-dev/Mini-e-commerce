@@ -1,5 +1,4 @@
 
-// ===== BASE CLASS =====
 class Product {
   constructor(id, name, price) {
     this.id = id;
@@ -8,7 +7,6 @@ class Product {
   }
 }
 
-// ===== CHILD CLASS =====
 class CartItem extends Product {
   constructor(id, name, price, qty = 1) {
     super(id, name, price);
