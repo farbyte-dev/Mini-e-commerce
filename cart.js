@@ -1,4 +1,3 @@
-// ===== CART CLASS =====
 class Cart {
   constructor() {
     this.items = [];
