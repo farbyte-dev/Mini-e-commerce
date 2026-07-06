@@ -1,4 +1,3 @@
-// ===== PRODUCTS DATA =====
 const products = [
   new Product(1, "Shirt", 1200),
   new Product(2, "Shoes", 3000),
@@ -7,10 +6,8 @@ const products = [
   new Product(5, "Cap", 800)
 ];
 
-// ===== INIT CART =====
 const cart = new Cart();
 
-// ===== RENDER PRODUCTS =====
 function renderProducts() {
   const productDiv = document.getElementById("products");
 
@@ -27,5 +24,4 @@ function renderProducts() {
   });
 }
 
-// ===== START APP =====
 renderProducts();
